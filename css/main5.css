@@ -1,0 +1,138 @@
+/* Sección de la página con el tag "title" */
+body{
+  font-family: 'Quicksand', sans-serif;
+}
+
+#title{
+  background-color: #454d66;
+  color: #009975;
+}
+
+h1{
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+#h-title{
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #d9d872;
+}
+
+.container-fluid{
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* navigation bar */
+
+.navbar{
+  padding: 0 0 5rem;
+}
+
+.navbar-brand-1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.navbar-brand:hover{
+  font-size: 2rem;
+  font-weight: bold;
+  opacity: 10;
+}
+
+.title-images{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  transform: rotate(25deg);
+}
+
+/* imágenes de la página */
+
+.pictures-dr{
+  width: 50%;
+  border-radius: 20%;
+  padding-bottom: 5%;
+}
+
+/* información de contacto */
+
+#info{
+  text-align: center;
+  color: #009975;
+}
+
+.quienes-texto{
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 6%;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.doctoras{
+  padding: 1% 10%;
+}
+
+/* sección de especialidades */
+
+#especialidades{
+  background-color: #d9d872;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.image-esp{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.image-esp1{
+  display: block;
+  padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16%;
+}
+
+.text-imag{
+  text-align: center;
+  padding: 8%;
+  font-weight: bold;
+  color: #009975;
+}
+
+/* información de contacto */
+
+.mail{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #009975;
+}
+
+.correos{
+  text-align: center;
+  padding: 5%;
+  font-size: 1.5rem;
+  color: #009975;
+}
+
+/* interacción con dispositivos celulares */
+
+@media (max-width: 1010px) {
+  .title-images{
+    position: relative;
+    z-index: -1;
+  }
+}
